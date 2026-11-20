@@ -1,0 +1,15 @@
+{
+  "name": "hacklab-vulnerable",
+  "version": "1.0.0",
+  "description": "SecureBank - Vulnerable Version (Lab de Hacking Ético)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node seed.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^9.4.3",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3"
+  }
+}
